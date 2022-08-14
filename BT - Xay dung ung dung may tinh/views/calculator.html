@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Chiếc máy tính kì lạ</h1>
+<form action="/result" method="POST">
+    <table>
+        <tr>
+            <td>Tham số 1:</td>
+            <td><label>
+                <input type="number" name="a">
+            </label></td>
+        </tr>
+        <tr>
+            <td>Phép toán:</td>
+            <td>
+                <label>
+                    <select name="pheptinh">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Tham số 2:</td>
+            <td><label>
+                <input type="number" name="b">
+            </label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><label><button type="submit" style="border: 1px solid red;
+                    color: black; background-color: red; margin-left: 40%; font-weight: bold; text-decoration: none">Kết Quả</button></label></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

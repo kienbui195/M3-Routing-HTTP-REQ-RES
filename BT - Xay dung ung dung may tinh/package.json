@@ -1,0 +1,7 @@
+{
+  "name": "BT - Xay dung ung dung may tinh",
+  "version": "1.0.0",
+  "dependencies": {
+    "qs": "^6.11.0"
+  }
+}
